@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+:root {
+    --primary-color: #3c1f76;
+    /*meteorite*/
+    --secondary-color: #17f5b9;
+    /*aqua*/
+    --tertiary-color: #ffa876;
+    /*hit pink*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    background-color: var(--tertiary-color);
+}
+
+body {
+    text-align: center;
+    display: block;
+    margin: 5%;
+    letter-spacing: 1px;
+    ;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    color: var(--primary-color);
+
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 2% auto 2%;
+    font-weight: bolder;
+    font-size: larger;
+    color: var(--primary-color);
+}
+
+input {
+    width: 100%;
+    margin: auto auto 10%;
+    color: var(--primary-color);
+    padding: 2%;
+    font-weight: bolder;
+    border-radius: 1rem;
+    border-color: var(--primary-color);
+}
+
+button {
+    display: block;
+    text-align: center;
+    color: var(--primary-color);
+    margin: auto;
+    padding: 2%;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: x-large;
+    border-color: var(--primary-color);
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+}
