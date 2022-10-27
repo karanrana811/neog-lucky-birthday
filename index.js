@@ -18,8 +18,9 @@ const checkIfNumberLucky = (sumOfDate, numberToCheck) => {
     console.log(sumOfDate, numberToCheck);
     if (sumOfDate % numberToCheck === 0) {
         message.innerText = "It's a lucky number!";
-    }
+    } else {
     message.innerText = "Number is not that lucky."
+    }
 }
 
 button.addEventListener('click', () => {
