@@ -26,11 +26,12 @@ const checkIfNumberLucky = (sumOfDate, numberToCheck) => {
 button.addEventListener('click', () => {
     const date = dob.value;
     const numberToCheck = luckyNumber.value;
-    if (date && numberToCheck) {
+    if (date && numberToCheck
+        && numberToCheck > 0) {
         const sumOfDate = calculateSum(date);
         checkIfNumberLucky(sumOfDate, numberToCheck);
     } else {
-        message.innerText = "Please enter both fields.";
+        message.innerText = "Please enter valid inputs.";
     }
 });
 
